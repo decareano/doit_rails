@@ -1,8 +1,6 @@
-var connectedLink = "https://api.do-it.org/v1/opportunities\?lat\=51.567526\&lng\=-0.182308\&miles\=2 ";
+$(document).ready(function() {
 
-$.getJSON(connectedLink, function showOps(data){
-
-  var organizations = data.data.items
+  var organizations = gon.orgs
 
   var myLatlng = new google.maps.LatLng(51.567526, -0.182308);
   var mapOptions = {
@@ -26,5 +24,4 @@ $.getJSON(connectedLink, function showOps(data){
       marker.setMap(map);
     })(i);
   };
-
 });
