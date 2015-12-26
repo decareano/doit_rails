@@ -19,7 +19,8 @@ $(document).ready(function() {
 
       var marker = new google.maps.Marker({
           position: myLatlng,
-          title: title
+          title: title,
+          optimized: false
       });
       marker.setMap(map);
     })(i);
