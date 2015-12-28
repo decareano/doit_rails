@@ -22,6 +22,7 @@ $(document).ready(function() {
           title: title,
           optimized: false
       });
+      
       marker.setMap(map);
     })(i);
   };

@@ -11,7 +11,7 @@ class WelcomeController < ApplicationController
     collect_all_items(host, href, js_items, @locations_count)
     gon.orgs = js_items
     @total_markers_count = js_items.length
-    # Collect statistics from the last response
+    # Collect statistics from the response
     response = HTTParty.get(host+href)
     @items_per_page = JSON.parse(response.body)["meta"]["items_per_page"]
     @total_items = JSON.parse(response.body)["meta"]["total_items"]
