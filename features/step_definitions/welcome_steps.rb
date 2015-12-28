@@ -6,6 +6,7 @@ Then(/^I should see "(.*?)"$/) do |arg1|
   expect(page).to have_content("Volunteer opportunities")
 end
 
-Then(/^I should see a pin on the map$/) do
-  expect(page).to have_selector('img[usemap="#gmimap0"]', count: 1)
+Then(/^I should see a pin on the map with Driver volunteer opportunity$/) do
+  expect(page).to have_selector('area[title="\"Driver volunteer\""]', count: 1)
 end
+

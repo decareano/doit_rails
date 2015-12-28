@@ -8,6 +8,6 @@ Feature: As a user,
   @javascript
   Scenario: User sees one pin on the map
     Given I am on the homepage
-    Then I should see a pin on the map
+    Then I should see a pin on the map with Driver volunteer opportunity
 
 	
