@@ -5,6 +5,44 @@
 # files.
 
 require 'cucumber/rails'
+require 'capybara'
+require 'billy/cucumber'
+
+
+Capybara.javascript_driver = :poltergeist
+#WebMock.disable_net_connect!(allow_localhost: true)
+
+#Capybara.register_driver :poltergeist do |app|
+  #Capybara::Poltergeist::Driver.new(app, :js_errors => false)
+#end
+
+Billy.configure do |c|
+  c.cache = true
+  c.cache_request_headers = false
+  c.ignore_params = ["http://www.google-analytics.com/__utm.gif",
+                     "https://r.twimg.com/jot",
+                     "http://p.twitter.com/t.gif",
+                     "http://p.twitter.com/f.gif",
+                     "http://www.facebook.com/plugins/like.php",
+                     "https://www.facebook.com/dialog/oauth",
+                     "http://cdn.api.twitter.com/1/urls/count.json"]
+  c.path_blacklist = []
+  c.merge_cached_responses_whitelist = []
+  c.persist_cache = true
+  c.ignore_cache_port = true # defaults to true
+  c.non_successful_cache_disabled = false
+  c.non_successful_error_level = :warn
+  c.non_whitelisted_requests_disabled = false
+  c.cache_path = 'spec/req_cache/'
+  c.proxy_host = 'example.com' # defaults to localhost
+  c.proxy_port = 12345 # defaults to random
+  c.proxied_request_host = nil
+  c.proxied_request_port = 80
+end
+
+After do
+  Capybara.use_default_driver
+end
 
 # Capybara defaults to CSS3 selectors rather than XPath.
 # If you'd prefer to use XPath, just uncomment this line and adjust any
