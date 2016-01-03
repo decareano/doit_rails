@@ -1,0 +1,27 @@
+---
+:scope: 
+:url: https://s.yimg.com/os/mit/media/m/base/images/transparent-1093278.png
+:body: ''
+:status: 200
+:method: get
+:headers:
+  Accept-Ranges: bytes
+  Cache-Control: max-age=567648000,public
+  Content-Length: '98'
+  Content-Type: image/png
+  Date: Fri, 01 Jan 2016 19:43:23 GMT
+  Etag: '"YM:1:d1d2b329-389b-4d35-a8b9-cbd9369975cf0004d61b297a80a2"'
+  Expires: Tue, 27 Dec 2033 19:43:23 GMT
+  Last-Modified: Tue, 19 Feb 2013 22:14:15 GMT
+  Server: ATS
+  Via: HTTP/1.1 web22.use45.mobstor.bf1.yahoo.com UserFiberFramework/1.0, https/1.1
+    l3.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
+  X-Ysws-Request-Id: f48bc8a1-2cb6-4343-82d4-56456306b272
+  X-Ysws-Visited-Replicas: gops.use45.mobstor.vip.bf1.yahoo.com
+  Age: '153043'
+  Connection: close
+  Y-Trace: BAEAQAAAAAD2M_bm.x6gcwAAAAAAAAAAbksq37FP_I4AAAAAAAAAAAAFKG6d_D9JAAUobp38P9.McstwAAAAAA--
+:content: !binary |-
+  iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAABlBMVEX/////
+  //9VfPVsAAAAAXRSTlMAQObYZgAAAApJREFUCB1jYAAAAAIAAc/INeUAAAAA
+  SUVORK5CYII=
