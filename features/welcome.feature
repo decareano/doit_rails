@@ -11,7 +11,7 @@ Feature: As a user,
     Given I am on the homepage
     Then I should see a map
 
-  @javascript @vcr
+  @javascript @vcr @billy
   Scenario: User sees particular pin on the map
     Given I am on the homepage
     Then I should see a pin on the map with Driver volunteer opportunity

@@ -28,9 +28,12 @@ Billy.configure do |c|
 end
 Billy.proxy.restore_cache
 #Capybara.javascript_driver = :poltergeist_billy
+Before('@billy') do
+  Capybara.current_driver = :selenium_billy
+end
 
 
-After do
+After('@billy') do
   Capybara.use_default_driver
 end
 
