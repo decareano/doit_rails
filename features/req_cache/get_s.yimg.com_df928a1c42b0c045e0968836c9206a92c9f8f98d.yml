@@ -16,14 +16,14 @@
   Server: ATS
   x-ysws-request-id: 5212ef79-7a00-4ee6-8684-5f43c8af666d
   x-ysws-visited-replicas: gops.use26.mobstor.vip.bf1.yahoo.com
-  Age: '70945'
+  Age: '76228'
   X-Cache: HIT from logo3.global.media.bf1.yahoo.com
   X-Cache-Lookup: HIT from logo3.global.media.bf1.yahoo.com:80
   Via: HTTP/1.1 web8.use26.mobstor.bf1.yahoo.com UserFiberFramework/1.0, 1.0 logo3.global.media.bf1.yahoo.com:80
     (squid/2.7.STABLE9), https/1.0 l8.ycs.dea.yahoo.com (ApacheTrafficServer [cRs
     f ])
   Connection: close
-  Y-Trace: BAEAQAAAAAA.yHf6Iwt5UgAAAAAAAAAA5BiQkFn1D28AAAAAAAAAAAAFKJtxhTYvAAUom3GFNq5STXjIAAAAAA--
+  Y-Trace: BAEAQAAAAABUpXBKE04cgwAAAAAAAAAA5BiQkFn1D28AAAAAAAAAAAAFKJysbgHPAAUonKxuAljRca1LAAAAAA--
 :content: !binary |-
   iVBORw0KGgoAAAANSUhEUgAAAI4AAAAlCAMAAACj+CEXAAAABGdBTUEAALGP
   C/xhBQAAAAFzUkdCAK7OHOkAAADhUExURUxpcSUAajwAmk8AzjIAg0gAuScA

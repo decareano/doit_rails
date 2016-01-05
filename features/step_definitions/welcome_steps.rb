@@ -1,4 +1,6 @@
-
+Before('@billy') do
+  Capybara.current_driver = :selenium_billy
+end
 Given(/^I am on the homepage$/) do
   	visit root_path
 end

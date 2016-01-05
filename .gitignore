@@ -12,3 +12,4 @@
 !/log/.keep
 /tmp
 /features/reg_cache/*
+/features/reg_cache

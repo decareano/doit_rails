@@ -5,25 +5,25 @@
 :status: 200
 :method: get
 :headers:
-  Date: Mon, 04 Jan 2016 14:42:15 GMT
+  Date: Mon, 04 Jan 2016 12:36:01 GMT
   P3P: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM
     DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY
     ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
-  X-Server-Time-FetchImage: '258092'
+  X-Server-Time-FetchImage: '71429'
   Content-Disposition: inline; filename=536890b0-2313-11e4-9e88-172c67c10f31_Dan_Wetzel_40x40.jpg
   Cache-Control: max-age=94348800,public
   X-Server-Processor: ymagine
-  X-Server-Time-Process: '73961'
-  X-Server-Time-Total: '332436'
+  X-Server-Time-Process: '94919'
+  X-Server-Time-Total: '166604'
   Content-Length: '974'
   X-Image-Width: '40'
   X-Image-Height: '40'
   Content-Type: image/jpeg
-  Age: '104439'
+  Age: '117297'
   Server: ATS
   Connection: close
-  Via: https/1.1 l1.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
-  Y-Trace: BAEAQAAAAACrt6VyHfG2jwAAAAAAAAAAIFnD3tJol0wAAAAAAAAAAAAFKJtxhc59AAUom3GFzzuxXzNcAAAAAA--
+  Via: https/1.1 l2.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
+  Y-Trace: BAEAQAAAAAC.yeK8JiPGrQAAAAAAAAAAnweTeNWlNK8AAAAAAAAAAAAFKJyshpaZAAUonKyGl3qcZeb4AAAAAA--
 :content: !binary |-
   /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcH
   Bw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/

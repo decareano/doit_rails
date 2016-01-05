@@ -8,14 +8,23 @@ require 'cucumber/rails'
 require 'capybara'
 require 'billy/cucumber'
 
-#Capybara.javascript_driver = :poltergeist
+# Capybara.javascript_driver = :poltergeist
+Capybara.javascript_driver = :selenium
+# Capybara.register_driver :poltergeist do |app|
+#   Capybara::Poltergeist::Driver.new(app, :js_errors => false, :debug => true)
+# end
 
-Capybara.register_driver :poltergeist do |app|
-  Capybara::Poltergeist::Driver.new(app, :js_errors => false, :debug => true)
-end
+# Capybara.register_driver :selenium do |app|
+#   Capybara::selenium::Driver.new(app)
+# end
 
+# Capybara.register_driver :webkit do |app|
+#    Capybara::webkit::Driver.new(app)
+# end
+Billy.proxy.reset_cache
 Billy.configure do |c|
   c.cache = true
+  c.cache_request_headers = false
   c.ignore_params = ["http://www.google-analytics.com/__utm.gif",
                      "https://r.twimg.com/jot",
                      "http://p.twitter.com/t.gif",
@@ -23,17 +32,20 @@ Billy.configure do |c|
                      "http://www.facebook.com/plugins/like.php",
                      "https://www.facebook.com/dialog/oauth",
                      "http://cdn.api.twitter.com/1/urls/count.json"]
+  c.path_blacklist = []
+  c.merge_cached_responses_whitelist = []
   c.persist_cache = true
+  c.ignore_cache_port = true # defaults to true
+  c.non_successful_cache_disabled = false
+  c.non_successful_error_level = :warn
+  c.non_whitelisted_requests_disabled = false
+  c.proxied_request_host = nil
+  c.proxied_request_port = 80
   c.cache_path = 'features/req_cache/'
 end
-Billy.proxy.restore_cache
-#Capybara.javascript_driver = :poltergeist_billy
-Before('@billy') do
-  Capybara.current_driver = :selenium_billy
-end
 
 
-After('@billy') do
+After do
   Capybara.use_default_driver
 end
 

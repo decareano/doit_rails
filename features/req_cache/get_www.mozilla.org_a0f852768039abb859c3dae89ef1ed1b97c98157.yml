@@ -6,7 +6,7 @@
 :method: get
 :headers:
   Server: cloudflare-nginx
-  Date: Tue, 05 Jan 2016 19:45:24 GMT
+  Date: Tue, 05 Jan 2016 21:19:54 GMT
   Content-Type: application/javascript; charset="utf-8"
   Connection: close
   Access-Control-Allow-Origin: "*"
@@ -14,7 +14,7 @@
   Last-Modified: Mon, 21 Dec 2015 18:35:16 GMT
   Vary: Accept-Encoding
   CF-Cache-Status: HIT
-  CF-RAY: 2601aef1f00626c0-FRA
+  CF-RAY: 2602396033762678-FRA
 :content: (function(){"use strict";window.site={getPlatform:function(ua,pf){pf=pf===""?"":pf||navigator.platform;ua=ua||navigator.userAgent;if(/Win(16|9[x58]|NT(
   [1234]| 5\.0| [^0-9]|[^ -]|$))/.test(ua)||/Windows ([MC]E|9[x58]|3\.1|4\.10|NT(
   [1234]\D| 5\.0| [^0-9]|[^ ]|$))/.test(ua)||/Windows_95/.test(ua)){return"oldwin"}if(pf.indexOf("Win32")!==-1||pf.indexOf("Win64")!==-1){return"windows"}if(/android/i.test(ua)){return"android"}if(/linux/i.test(pf)||/linux/i.test(ua)){return"linux"}if(pf.indexOf("MacPPC")!==-1){return"oldmac"}if(/Mac

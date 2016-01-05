@@ -9,19 +9,19 @@
   Cache-Control: max-age=567648000,public
   Content-Length: '2611'
   Content-Type: image/svg+xml
-  Date: Sat, 02 Jan 2016 18:38:05 GMT
+  Date: Tue, 05 Jan 2016 12:33:05 GMT
   Etag: '"YM:1:107c1360-f009-4e32-a33b-a130d7a214b2000515f9d03a9f92"'
-  Expires: Wed, 28 Dec 2033 18:38:05 GMT
+  Expires: Sat, 31 Dec 2033 12:33:05 GMT
   Last-Modified: Wed, 13 May 2015 17:19:28 GMT
   Server: ATS
   Vary: Accept-Encoding
-  Via: HTTP/1.1 web7.use45.mobstor.bf1.yahoo.com UserFiberFramework/1.0, https/1.1
-    l7.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
-  X-Ysws-Request-Id: 07a4a897-f497-4610-86b2-5c720deb6054
-  X-Ysws-Visited-Replicas: gops.use45.mobstor.vip.bf1.yahoo.com
-  Age: '178171'
+  Via: HTTP/1.1 web9.use45.mobstor.bf1.yahoo.com UserFiberFramework/1.0, https/1.1
+    l6.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
+  x-ysws-request-id: 7d5e852e-b942-400b-9c33-315cde313f5f
+  x-ysws-visited-replicas: gops.use45.mobstor.vip.bf1.yahoo.com
+  Age: '31438'
   Connection: close
-  Y-Trace: BAEAQAAAAABHez2bllmd7wAAAAAAAAAAGmCpdx4MJaQAAAAAAAAAAAAFKIesELn.AAUoh6wQurepMlYwAAAAAA--
+  Y-Trace: BAEAQAAAAABvVc1eclytyQAAAAAAAAAA5EsYsV52LH4AAAAAAAAAAAAFKJzCR5oRAAUonMJHm4.6tUl4AAAAAA--
 :content: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<!-- Generator: Adobe Illustrator
   16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\r\n<!DOCTYPE svg PUBLIC
   \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\r\n<svg

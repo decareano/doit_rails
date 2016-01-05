@@ -6,19 +6,18 @@
 :method: get
 :headers:
   Server: cloudflare-nginx
-  Date: Mon, 04 Jan 2016 20:07:35 GMT
+  Date: Tue, 05 Jan 2016 21:17:01 GMT
   Content-Type: text/html; charset=utf-8
   Connection: close
-  X-Backend-Server: bedrock4.webapp.scl3.mozilla.com
+  X-Backend-Server: bedrock6.webapp.scl3.mozilla.com
   Vary: Accept-Encoding
   Cache-Control: max-age=0
   X-Robots-Tag: noodp
   X-Frame-Options: DENY
   X-Cache-Info: not cacheable; response specified max-age <= 0
   X-Clacks-Overhead: GNU Terry Pratchett
-  Cf-Cache-Status: MISS
-  Cf-Ray: 25f9920ab74b267e-FRA
-  Content-Length: '14528'
+  CF-Cache-Status: MISS
+  CF-RAY: 26023521bda42768-FRA
 :content: !binary |-
   CjwhZG9jdHlwZSBodG1sPgo8aHRtbCBjbGFzcz0id2luZG93cyB4ODYgbm8t
   anMiIGxhbmc9ImVuIiBkaXI9Imx0ciIgZGF0YS1sYXRlc3QtZmlyZWZveD0i
@@ -338,7 +337,7 @@
   cmlwdCBzcmM9Ii9tZWRpYS9qcy9saWJzL21hdGNoTWVkaWEuM2ZkMDFkMWFm
   MThiLmpzIj48L3NjcmlwdD4KICAgIDwhW2VuZGlmXS0tPgoKICAgICAgICAg
   IDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Ii9tZWRpYS9q
-  cy9jb21tb24tYnVuZGxlLmRhMmFiNjg5YmU1ZC5qcyIgY2hhcnNldD0idXRm
+  cy9jb21tb24tYnVuZGxlLmQyMjZmNzcxNjdiNS5qcyIgY2hhcnNldD0idXRm
   LTgiPjwvc2NyaXB0PiAgICAgICAgICA8c2NyaXB0IHR5cGU9InRleHQvamF2
   YXNjcmlwdCIgc3JjPSIvbWVkaWEvanMvZmlyZWZveF9maXJzdHJ1bl80Ml9s
   ZWFybm1vcmUtYnVuZGxlLjNmMmFjOWIwMmQ1Zi5qcyIgY2hhcnNldD0idXRm

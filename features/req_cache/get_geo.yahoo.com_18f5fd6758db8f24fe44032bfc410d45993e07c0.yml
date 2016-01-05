@@ -1,0 +1,24 @@
+---
+:scope: 
+:url: https://geo.yahoo.com/p?s=2023538075&t=jucW6ZqiaBYJ7Jca,0.6014717568430803&_I=&_AO=0&_NOL=0&_R=&_P=3.29.1%05_pl%031%04A_v%033.29.1%04test%03901%04_bt%03rapid%04A_pr%03https%04A_tzoff%031%04A_sid%03gooQbk2UKNq791nn%04_w%03www.yahoo.com%2F%04pt%031%04mrkt%03us%04authfb%030%04f%030%04rid%03dir1r9hb8ocas%04colo%03bf1%04err%030%04err_url%030%04_ts%031452028796%04A_pfb%0328%04A_pbp%0357%04A_psr%0330%04A_pol%031285%04A_pdi%03462%04A_pdl%030%04A_psc%030%04A_pfe%031153%04etrg%03backgroundPost%04outcm%03performance%04usergenf%030%04etag%03performance%04_E%03pageperf
+:body: ''
+:status: 200
+:method: get
+:headers:
+  Date: Tue, 05 Jan 2016 21:19:56 GMT
+  P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV
+    TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL
+    UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+  Set-Cookie: B=fc8qq49b8ocrs&b=3&s=ge; expires=Fri, 05-Jan-2018 21:19:56 GMT; path=/;
+    domain=.yahoo.com
+  Cache-Control: no-cache, no-store, private
+  Pragma: no-cache
+  Content-Length: '43'
+  Content-Type: image/gif
+  Age: '0'
+  Connection: close
+  Via: http/1.1 r05.ycpi.ir2.yahoo.net (ApacheTrafficServer [cMsSf ])
+  Server: ATS
+  Y-Trace: BAEAQAAAAACmNf.BqLwCogAAAAAAAAAARQ7LewpUUzAAAAAAAAAAAAAFKJzMoZ8OAAUonMyhrQX6kjokAAAAAA--
+:content: !binary |-
+  R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==

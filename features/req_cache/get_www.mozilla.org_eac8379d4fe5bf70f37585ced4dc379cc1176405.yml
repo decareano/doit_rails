@@ -6,20 +6,20 @@
 :method: get
 :headers:
   Server: cloudflare-nginx
-  Date: Mon, 04 Jan 2016 20:09:13 GMT
+  Date: Tue, 05 Jan 2016 21:19:55 GMT
   Content-Type: image/x-icon
   Content-Length: '5430'
   Connection: close
-  X-Backend-Server: bedrock1.webapp.scl3.mozilla.com
+  X-Backend-Server: bedrock3.webapp.scl3.mozilla.com
   Cache-Control: max-age=900
-  Expires: Mon, 04 Jan 2016 19:28:09 GMT
-  Etag: '"1536"'
+  Expires: Tue, 05 Jan 2016 21:24:30 GMT
+  ETag: '"1536"'
   X-Robots-Tag: noodp
   Last-Modified: Mon, 18 Nov 2013 17:00:08 GMT
-  X-Cache-Info: cached
-  Cf-Cache-Status: HIT
+  X-Cache-Info: caching
+  CF-Cache-Status: HIT
   Accept-Ranges: bytes
-  Cf-Ray: 25f99475bed32678-FRA
+  CF-RAY: 260239615a6f26c0-FRA
 :content: !binary |-
   AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAA
   ACAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////AP///wD///8A

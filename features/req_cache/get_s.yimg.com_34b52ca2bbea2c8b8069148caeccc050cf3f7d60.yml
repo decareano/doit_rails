@@ -5,25 +5,25 @@
 :status: 200
 :method: get
 :headers:
-  Date: Mon, 04 Jan 2016 19:15:39 GMT
+  Date: Mon, 04 Jan 2016 18:48:45 GMT
   P3P: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM
     DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY
     ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
-  X-Server-Time-FetchImage: '704028'
+  X-Server-Time-FetchImage: '22933'
   Content-Disposition: inline; filename=a02b5580-1f40-11e4-aeb1-9931dcc5b07e_Katie_Couric_40x40.jpg
   Cache-Control: max-age=94348800,public
   X-Server-Processor: ymagine
-  X-Server-Time-Process: '69701'
-  X-Server-Time-Total: '774063'
+  X-Server-Time-Process: '70272'
+  X-Server-Time-Total: '93550'
   Content-Length: '1079'
   X-Image-Width: '40'
   X-Image-Height: '40'
   Content-Type: image/jpeg
-  Age: '88034'
+  Age: '94932'
   Server: ATS
   Connection: close
-  Via: https/1.1 l4.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
-  Y-Trace: BAEAQAAAAABrbXef4BZSdwAAAAAAAAAA1M0fLhVYDMgAAAAAAAAAAAAFKJtxg7MDAAUom3GDtP6wN09UAAAAAA--
+  Via: https/1.1 l7.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
+  Y-Trace: BAEAQAAAAAAEqte7XioTMgAAAAAAAAAAGmCpdx4MJaQAAAAAAAAAAAAFKJysevlpAAUonKx6.ujvkQukAAAAAA--
 :content: !binary |-
   /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcH
   Bw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/
