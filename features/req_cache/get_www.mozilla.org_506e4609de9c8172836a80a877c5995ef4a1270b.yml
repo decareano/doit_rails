@@ -16,8 +16,9 @@
   X-Frame-Options: DENY
   X-Cache-Info: not cacheable; response specified max-age <= 0
   X-Clacks-Overhead: GNU Terry Pratchett
-  CF-Cache-Status: MISS
-  CF-RAY: 25f9920ab74b267e-FRA
+  Cf-Cache-Status: MISS
+  Cf-Ray: 25f9920ab74b267e-FRA
+  Content-Length: '14528'
 :content: !binary |-
   CjwhZG9jdHlwZSBodG1sPgo8aHRtbCBjbGFzcz0id2luZG93cyB4ODYgbm8t
   anMiIGxhbmc9ImVuIiBkaXI9Imx0ciIgZGF0YS1sYXRlc3QtZmlyZWZveD0i

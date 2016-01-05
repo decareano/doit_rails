@@ -5,25 +5,25 @@
 :status: 200
 :method: get
 :headers:
-  Date: Sat, 02 Jan 2016 02:21:28 GMT
-  P3p: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM
+  Date: Mon, 04 Jan 2016 15:27:02 GMT
+  P3P: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM
     DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY
     ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
-  X-Server-Time-Fetchimage: '10338'
+  X-Server-Time-FetchImage: '12987'
   Content-Disposition: inline; filename=plan_remodel.jpg.cf.jpg
   Cache-Control: public,max-age=2592000
   X-Server-Processor: ymagine
-  X-Server-Time-Process: '77952'
-  X-Server-Time-Total: '88673'
+  X-Server-Time-Process: '92646'
+  X-Server-Time-Total: '106033'
   Content-Length: '2794'
   X-Image-Width: '82'
   X-Image-Height: '82'
   Content-Type: image/jpeg
-  Age: '129158'
+  Age: '101751'
   Server: ATS
   Connection: close
-  Via: https/1.1 l5.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
-  Y-Trace: BAEAQAAAAAAiXT5LeRI7qwAAAAAAAAAA3UNTRA6QeVYAAAAAAAAAAAAFKG6eBLlcAAUobp4EuqpxwQRaAAAAAA--
+  Via: https/1.1 l8.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
+  Y-Trace: BAEAQAAAAABcQjCci3jRowAAAAAAAAAA5BiQkFn1D28AAAAAAAAAAAAFKJtxjkK5AAUom3GORJ_0pHrYAAAAAA--
 :content: !binary |-
   /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcH
   Bw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/

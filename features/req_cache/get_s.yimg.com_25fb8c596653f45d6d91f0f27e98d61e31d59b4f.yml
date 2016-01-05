@@ -17,8 +17,8 @@
   Vary: Accept-Encoding
   Via: HTTP/1.1 web7.use45.mobstor.bf1.yahoo.com UserFiberFramework/1.0, https/1.1
     l7.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
-  x-ysws-request-id: 07a4a897-f497-4610-86b2-5c720deb6054
-  x-ysws-visited-replicas: gops.use45.mobstor.vip.bf1.yahoo.com
+  X-Ysws-Request-Id: 07a4a897-f497-4610-86b2-5c720deb6054
+  X-Ysws-Visited-Replicas: gops.use45.mobstor.vip.bf1.yahoo.com
   Age: '178171'
   Connection: close
   Y-Trace: BAEAQAAAAABHez2bllmd7wAAAAAAAAAAGmCpdx4MJaQAAAAAAAAAAAAFKIesELn.AAUoh6wQurepMlYwAAAAAA--

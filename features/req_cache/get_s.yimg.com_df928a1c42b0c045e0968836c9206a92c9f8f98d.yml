@@ -9,21 +9,21 @@
   Cache-Control: private
   Content-Length: '1864'
   Content-Type: image/png
-  Date: Sun, 03 Jan 2016 00:01:24 GMT
-  Etag: '"YM:1:58caee44-8766-4a7a-aebd-923480fe06fc00052861028c69e4"'
-  Expires: Mon, 04 Jan 2016 00:01:24 GMT
-  Last-Modified: Sat, 02 Jan 2016 22:00:03 GMT
+  Date: Tue, 05 Jan 2016 00:00:28 GMT
+  ETag: '"YM:1:91b2e781-c8a1-4810-81d7-1d954d10f9c1000528893e559870"'
+  Expires: Wed, 06 Jan 2016 00:01:24 GMT
+  Last-Modified: Mon, 04 Jan 2016 22:00:04 GMT
   Server: ATS
-  X-Ysws-Request-Id: ac1912b0-a74a-4ee5-ba26-061d985c6e8e
-  X-Ysws-Visited-Replicas: gops.use26.mobstor.vip.bf1.yahoo.com
-  X-Cache: HIT from logo1.global.media.bf1.yahoo.com
-  X-Cache-Lookup: HIT from logo1.global.media.bf1.yahoo.com:80
-  Via: HTTP/1.1 web10.use26.mobstor.bf1.yahoo.com UserFiberFramework/1.0, 1.0 logo1.global.media.bf1.yahoo.com:80
-    (squid/2.7.STABLE9), https/1.0 l3.ycs.dea.yahoo.com (ApacheTrafficServer [cRs
+  x-ysws-request-id: 5212ef79-7a00-4ee6-8684-5f43c8af666d
+  x-ysws-visited-replicas: gops.use26.mobstor.vip.bf1.yahoo.com
+  Age: '70945'
+  X-Cache: HIT from logo3.global.media.bf1.yahoo.com
+  X-Cache-Lookup: HIT from logo3.global.media.bf1.yahoo.com:80
+  Via: HTTP/1.1 web8.use26.mobstor.bf1.yahoo.com UserFiberFramework/1.0, 1.0 logo3.global.media.bf1.yahoo.com:80
+    (squid/2.7.STABLE9), https/1.0 l8.ycs.dea.yahoo.com (ApacheTrafficServer [cRs
     f ])
-  Age: '51161'
   Connection: close
-  Y-Trace: BAEAQAAAAABq52p.nb2DLAAAAAAAAAAAbksq37FP_I4AAAAAAAAAAAAFKG6d.4eyAAUobp37iAyTeykBAAAAAA--
+  Y-Trace: BAEAQAAAAAA.yHf6Iwt5UgAAAAAAAAAA5BiQkFn1D28AAAAAAAAAAAAFKJtxhTYvAAUom3GFNq5STXjIAAAAAA--
 :content: !binary |-
   iVBORw0KGgoAAAANSUhEUgAAAI4AAAAlCAMAAACj+CEXAAAABGdBTUEAALGP
   C/xhBQAAAAFzUkdCAK7OHOkAAADhUExURUxpcSUAajwAmk8AzjIAg0gAuScA

@@ -7,14 +7,14 @@
 :headers:
   Content-Type: image/png
   Access-Control-Allow-Origin: "*"
-  Date: Sun, 03 Jan 2016 14:19:52 GMT
-  Expires: Sun, 03 Jan 2016 14:19:52 GMT
+  Date: Tue, 05 Jan 2016 19:43:10 GMT
+  Expires: Tue, 05 Jan 2016 19:43:10 GMT
   Cache-Control: private, max-age=31536000
   Last-Modified: Thu, 10 Sep 2015 07:18:54 GMT
   X-Content-Type-Options: nosniff
   Server: sffe
   Content-Length: '2074'
-  X-Xss-Protection: 1; mode=block
+  X-XSS-Protection: 1; mode=block
   Connection: close
 :content: !binary |-
   iVBORw0KGgoAAAANSUhEUgAAAEIAAAAaCAYAAAADiYpyAAAH4UlEQVR4Ae1Y

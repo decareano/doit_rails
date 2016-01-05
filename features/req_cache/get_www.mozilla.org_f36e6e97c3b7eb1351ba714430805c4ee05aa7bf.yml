@@ -6,7 +6,7 @@
 :method: get
 :headers:
   Server: cloudflare-nginx
-  Date: Mon, 04 Jan 2016 20:09:13 GMT
+  Date: Tue, 05 Jan 2016 19:45:24 GMT
   Content-Type: text/css; charset="utf-8"
   Connection: close
   Vary: Accept-Encoding
@@ -16,7 +16,7 @@
   Last-Modified: Mon, 21 Dec 2015 20:17:18 GMT
   X-Cache-Info: cached
   CF-Cache-Status: HIT
-  CF-RAY: 25f994719a5a238a-FRA
+  CF-RAY: 2601aef27a782654-FRA
 :content: 'html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,hr,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figure,figcaption,hgroup,menu,footer,header,main,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0}article,aside,canvas,figure,figure
   img,figcaption,hgroup,footer,header,main,nav,section,audio,video{display:block}a
   img{border:0}/*! updated 2015-06-17 */@font-face{font-family:''Open Sans Light'';src:url("/media/fonts/OpenSans-Light-webfont.804037562eab.eot?#iefix")

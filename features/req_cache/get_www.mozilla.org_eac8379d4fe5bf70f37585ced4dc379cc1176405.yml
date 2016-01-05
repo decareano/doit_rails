@@ -13,13 +13,13 @@
   X-Backend-Server: bedrock1.webapp.scl3.mozilla.com
   Cache-Control: max-age=900
   Expires: Mon, 04 Jan 2016 19:28:09 GMT
-  ETag: '"1536"'
+  Etag: '"1536"'
   X-Robots-Tag: noodp
   Last-Modified: Mon, 18 Nov 2013 17:00:08 GMT
   X-Cache-Info: cached
-  CF-Cache-Status: HIT
+  Cf-Cache-Status: HIT
   Accept-Ranges: bytes
-  CF-RAY: 25f99475bed32678-FRA
+  Cf-Ray: 25f99475bed32678-FRA
 :content: !binary |-
   AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAA
   ACAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////AP///wD///8A

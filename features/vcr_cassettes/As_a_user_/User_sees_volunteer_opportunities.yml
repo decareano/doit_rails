@@ -14826,4 +14826,590 @@ http_interactions:
       string: ''
     http_version: 
   recorded_at: Mon, 04 Jan 2016 20:09:41 GMT
+- request:
+    method: post
+    uri: https://geo.query.yahoo.com/v1/public/yql?yhlBTMS=1451947748590&yhlCT=2&yhlClient=rapid&yhlClientVer=3.29.1&yhlCompressed=0&yhlRnd=rdQrfjzBRbMKlJfF&yhlS=2023538075&yhlVer=2
+    body:
+      encoding: UTF-8
+      string: q=select%20*%20from%20x%20where%20a%20%3D%20'%7B%22bp%22%3A%7B%22_pl%22%3A1%2C%22A_v%22%3A%223.29.1%22%2C%22test%22%3A%22901%22%2C%22_bt%22%3A%22rapid%22%2C%22A_pr%22%3A%22https%22%2C%22A_tzoff%22%3A1%7D%2C%22r%22%3A%5B%7B%22t%22%3A%22lv%22%2C%22s%22%3A%222023538075%22%2C%22pp%22%3A%7B%22A_sid%22%3A%221ueV4rX1bSc1UfDA%22%2C%22_w%22%3A%22www.yahoo.com%2F%22%2C%22pt%22%3A%221%22%2C%22mrkt%22%3A%22us%22%2C%22authfb%22%3A0%2C%22f%22%3A0%2C%22rid%22%3A%22agb0uktb8ib5b%22%2C%22colo%22%3A%22bf1%22%2C%22err%22%3A%220%22%2C%22err_url%22%3A%220%22%2C%22A_am%22%3A%221%22%7D%2C%22_ts%22%3A1451947748%2C%22lv%22%3A%5B%7B%22m%22%3A%22pa-pr%22%2C%22l%22%3A%5B%7B%22sec%22%3A%22pr%22%2C%22_p%22%3A1%2C%22slk%22%3A%22Make%20Yahoo%20your%20homepage%22%2C%22rspns%22%3A%22op%22%2C%22t1%22%3A%22a2%22%2C%22t2%22%3A%22pr%22%2C%22t3%22%3A%22plcmt%22%2C%22elm%22%3A%22btn%22%2C%22elmt%22%3A%22cta%22%2C%22itc%22%3A%221%22%2C%22ilc%22%3A%221%22%2C%22camp%22%3A%22hpset%22%2C%22code%22%3A%22100%22%2C%22action%22%3A%22click%22%7D%5D%2C%22ylk%22%3A%7B%7D%7D%5D%7D%5D%2C%22yrid%22%3A%22%22%2C%22optout%22%3A%220%22%2C%22nol%22%3A%220%22%7D'
+    headers:
+      Host:
+      - geo.query.yahoo.com
+      User-Agent:
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+      Accept:
+      - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Language:
+      - en-US,en;q=0.5
+      Content-Type:
+      - application/x-www-form-urlencoded; charset=UTF-8
+      Referer:
+      - https://www.yahoo.com/
+      Content-Length:
+      - '1120'
+      Origin:
+      - https://www.yahoo.com
+      Cookie:
+      - HP=0
+      Connection:
+      - keep-alive
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Yql-Host:
+      - fan1556.sports.bf1.yahoo.com
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - https://www.yahoo.com
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate, max-age=0
+      P3p:
+      - policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV
+        TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY
+        ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+      Pragma:
+      - no-cache
+      Expires:
+      - Wed, 01 Mar 1995 00:00:00 GMT
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - POST, OPTIONS
+      Content-Type:
+      - text/plain;charset=utf-8
+      Date:
+      - Mon, 04 Jan 2016 22:49:08 GMT
+      Server:
+      - ATS
+      Age:
+      - '1'
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+        <query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:count="1" yahoo:created="2016-01-04T22:49:09Z" yahoo:lang="en-US"><results><result>0 ywamob, 1 geo. 1 geo, 0 ywa.</result></results></query><!-- total: 5 -->
+        <!-- fan1556.sports.bf1.yahoo.com -->
+    http_version: 
+  recorded_at: Mon, 04 Jan 2016 22:49:09 GMT
+- request:
+    method: get
+    uri: https://csi.gstatic.com/csi?action=apiboot2&e=10_1_0,10_2_0,11_1_0,11_4_0,11_5_0,11_7_0,11_8_0,11_9_0,11_10_0,11_11_0,11_12_0,11_13_0,11_14_U,11_15_0,11_16_0&libraries=places&rt=main.14&s=mapsapi3&v=2&v3v=23.3
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Host:
+      - csi.gstatic.com
+      User-Agent:
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+      Accept:
+      - image/png,image/*;q=0.8,*/*;q=0.5
+      Accept-Language:
+      - en-US,en;q=0.5
+      Referer:
+      - http://127.0.0.1:40633/
+      Connection:
+      - keep-alive
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Mon, 04 Jan 2016 22:49:10 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Last-Modified:
+      - Wed, 21 Jan 2004 19:51:30 GMT
+      Content-Type:
+      - image/gif
+      Server:
+      - Golfe2
+      Content-Length:
+      - '0'
+      Alternate-Protocol:
+      - 443:quic,p=1
+      Alt-Svc:
+      - quic=":443"; ma=604800; v="30,29,28,27,26,25"
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 04 Jan 2016 22:49:10 GMT
+- request:
+    method: get
+    uri: https://csi.gstatic.com/csi?action=apiboot2&e=10_1_0,10_2_0,11_1_0,11_4_0,11_5_0,11_7_0,11_8_0,11_9_0,11_10_0,11_11_0,11_12_0,11_13_0,11_14_U,11_15_0,11_16_0&libraries=places&rt=firstmap.93&s=mapsapi3&v=2&v3v=23.3
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Host:
+      - csi.gstatic.com
+      User-Agent:
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+      Accept:
+      - image/png,image/*;q=0.8,*/*;q=0.5
+      Accept-Language:
+      - en-US,en;q=0.5
+      Referer:
+      - http://127.0.0.1:40633/
+      Connection:
+      - keep-alive
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Mon, 04 Jan 2016 22:49:10 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Last-Modified:
+      - Wed, 21 Jan 2004 19:51:30 GMT
+      Content-Type:
+      - image/gif
+      Server:
+      - Golfe2
+      Content-Length:
+      - '0'
+      Alternate-Protocol:
+      - 443:quic,p=1
+      Alt-Svc:
+      - quic=":443"; ma=604800; v="30,29,28,27,26,25"
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 04 Jan 2016 22:49:10 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/gen_204?cad=host:127.0.0.1:40633,v:23,r:1,mt:m,c:51.567508,-0.182308,sp:0.08195x0.33680,size:981x384,relsize:0.80,token:3oh8uajy2k,src:apiv3,ts:0k7ae0&ev=api_viewport&target=api
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+      Accept:
+      - image/png,image/*;q=0.8,*/*;q=0.5
+      Accept-Language:
+      - en-US,en;q=0.5
+      Referer:
+      - http://127.0.0.1:40633/
+      Connection:
+      - keep-alive
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Content-Type:
+      - image/gif
+      Date:
+      - Mon, 04 Jan 2016 22:49:10 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Server:
+      - mafe
+      Content-Length:
+      - '0'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic,p=1
+      Alt-Svc:
+      - quic=":443"; ma=604800; v="30,29,28,27,26,25"
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 04 Jan 2016 22:49:10 GMT
+- request:
+    method: get
+    uri: https://csi.gstatic.com/csi?action=map2&e=10_1_0,10_2_0,11_1_0,11_4_0,11_5_0,11_7_0,11_8_0,11_9_0,11_10_0,11_11_0,11_12_0,11_13_0,11_14_U,11_15_0,11_16_0&firstmap=true&hadviewport=true&hdpi=false&libraries=places&mob=false&rt=visreq.225&s=mapsapi3&size=981x384&staticmap=false&v=2&v3v=23.3
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Host:
+      - csi.gstatic.com
+      User-Agent:
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+      Accept:
+      - image/png,image/*;q=0.8,*/*;q=0.5
+      Accept-Language:
+      - en-US,en;q=0.5
+      Referer:
+      - http://127.0.0.1:40633/
+      Connection:
+      - keep-alive
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Mon, 04 Jan 2016 22:49:10 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Last-Modified:
+      - Wed, 21 Jan 2004 19:51:30 GMT
+      Content-Type:
+      - image/gif
+      Server:
+      - Golfe2
+      Content-Length:
+      - '0'
+      Alternate-Protocol:
+      - 443:quic,p=1
+      Alt-Svc:
+      - quic=":443"; ma=604800; v="30,29,28,27,26,25"
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 04 Jan 2016 22:49:10 GMT
+- request:
+    method: get
+    uri: https://csi.gstatic.com/csi?action=map2&e=10_1_0,10_2_0,11_1_0,11_4_0,11_5_0,11_7_0,11_8_0,11_9_0,11_10_0,11_11_0,11_12_0,11_13_0,11_14_U,11_15_0,11_16_0&firstmap=true&hadviewport=true&hdpi=false&libraries=places&mob=false&rt=visres.618&s=mapsapi3&size=981x384&staticmap=false&v=2&v3v=23.3
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Host:
+      - csi.gstatic.com
+      User-Agent:
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+      Accept:
+      - image/png,image/*;q=0.8,*/*;q=0.5
+      Accept-Language:
+      - en-US,en;q=0.5
+      Referer:
+      - http://127.0.0.1:40633/
+      Connection:
+      - keep-alive
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Mon, 04 Jan 2016 22:49:10 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Last-Modified:
+      - Wed, 21 Jan 2004 19:51:30 GMT
+      Content-Type:
+      - image/gif
+      Server:
+      - Golfe2
+      Content-Length:
+      - '0'
+      Alternate-Protocol:
+      - 443:quic,p=1
+      Alt-Svc:
+      - quic=":443"; ma=604800; v="30,29,28,27,26,25"
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 04 Jan 2016 22:49:10 GMT
+- request:
+    method: get
+    uri: https://csi.gstatic.com/csi?action=map2&e=10_1_0,10_2_0,11_1_0,11_4_0,11_5_0,11_7_0,11_8_0,11_9_0,11_10_0,11_11_0,11_12_0,11_13_0,11_14_U,11_15_0,11_16_0&firstmap=true&hadviewport=true&hdpi=false&libraries=places&mob=false&rt=firsttile.868,firstpixel.868&s=mapsapi3&size=981x384&staticmap=false&v=2&v3v=23.3
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Host:
+      - csi.gstatic.com
+      User-Agent:
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+      Accept:
+      - image/png,image/*;q=0.8,*/*;q=0.5
+      Accept-Language:
+      - en-US,en;q=0.5
+      Referer:
+      - http://127.0.0.1:40633/
+      Connection:
+      - keep-alive
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Mon, 04 Jan 2016 22:49:11 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Last-Modified:
+      - Wed, 21 Jan 2004 19:51:30 GMT
+      Content-Type:
+      - image/gif
+      Server:
+      - Golfe2
+      Content-Length:
+      - '0'
+      Alternate-Protocol:
+      - 443:quic,p=1
+      Alt-Svc:
+      - quic=":443"; ma=604800; v="30,29,28,27,26,25"
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 04 Jan 2016 22:49:11 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttp://127.0.0.1:40633/&callback=_xdc_._h1exj3&token=23646
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+      Accept:
+      - "*/*"
+      Accept-Language:
+      - en-US,en;q=0.5
+      Referer:
+      - http://127.0.0.1:40633/
+      Connection:
+      - keep-alive
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/javascript; charset=UTF-8
+      Date:
+      - Mon, 04 Jan 2016 22:49:11 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Content-Disposition:
+      - attachment
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic,p=1
+      Alt-Svc:
+      - quic=":443"; ma=604800; v="30,29,28,27,26,25"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: "/**/_xdc_._h1exj3 && _xdc_._h1exj3( [1,null,0] )"
+    http_version: 
+  recorded_at: Mon, 04 Jan 2016 22:49:11 GMT
+- request:
+    method: get
+    uri: https://csi.gstatic.com/csi?action=map2&e=10_1_0,10_2_0,11_1_0,11_4_0,11_5_0,11_7_0,11_8_0,11_9_0,11_10_0,11_11_0,11_12_0,11_13_0,11_14_U,11_15_0,11_16_0&firstmap=true&hadviewport=true&hdpi=false&libraries=places&mob=false&rt=tilesloaded.1173,allpixels.1173&s=mapsapi3&size=981x384&staticmap=false&v=2&v3v=23.3
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Host:
+      - csi.gstatic.com
+      User-Agent:
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+      Accept:
+      - image/png,image/*;q=0.8,*/*;q=0.5
+      Accept-Language:
+      - en-US,en;q=0.5
+      Referer:
+      - http://127.0.0.1:40633/
+      Connection:
+      - keep-alive
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Mon, 04 Jan 2016 22:49:11 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Last-Modified:
+      - Wed, 21 Jan 2004 19:51:30 GMT
+      Content-Type:
+      - image/gif
+      Server:
+      - Golfe2
+      Content-Length:
+      - '0'
+      Alternate-Protocol:
+      - 443:quic,p=1
+      Alt-Svc:
+      - quic=":443"; ma=604800; v="30,29,28,27,26,25"
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 04 Jan 2016 22:49:11 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/gen_204?cad=host:127.0.0.1:40633,v:23,r:1,t:502,smni:2,src:apiv3,token:3oh8uajy2k,ts:0k7b20&ev=api_maprft&target=api
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+      Accept:
+      - image/png,image/*;q=0.8,*/*;q=0.5
+      Accept-Language:
+      - en-US,en;q=0.5
+      Referer:
+      - http://127.0.0.1:40633/
+      Connection:
+      - keep-alive
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Content-Type:
+      - image/gif
+      Date:
+      - Mon, 04 Jan 2016 22:49:11 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Server:
+      - mafe
+      Content-Length:
+      - '0'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic,p=1
+      Alt-Svc:
+      - quic=":443"; ma=604800; v="30,29,28,27,26,25"
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 04 Jan 2016 22:49:11 GMT
+- request:
+    method: get
+    uri: https://tracking-protection.cdn.mozilla.net/mozstd-track-digest256/1450395423
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Host:
+      - tracking-protection.cdn.mozilla.net
+      User-Agent:
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+      Accept:
+      - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Language:
+      - en-US,en;q=0.5
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache
+  response:
+    status:
+      code: 0
+      message: 
+    headers: {}
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 04 Jan 2016 22:49:11 GMT
 recorded_with: VCR 3.0.1

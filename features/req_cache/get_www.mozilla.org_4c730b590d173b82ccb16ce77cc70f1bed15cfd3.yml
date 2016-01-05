@@ -6,7 +6,7 @@
 :method: get
 :headers:
   Server: cloudflare-nginx
-  Date: Mon, 04 Jan 2016 20:09:13 GMT
+  Date: Tue, 05 Jan 2016 19:45:24 GMT
   Content-Type: text/css; charset="utf-8"
   Connection: close
   Access-Control-Allow-Origin: "*"
@@ -14,7 +14,7 @@
   Last-Modified: Mon, 21 Dec 2015 18:34:26 GMT
   Vary: Accept-Encoding
   CF-Cache-Status: HIT
-  CF-RAY: 25f99471b482233c-FRA
+  CF-RAY: 2601aef27ec72744-FRA
 :content: !binary |-
   I3RyYWNraW5nLXByb3RlY3Rpb24tYW5pbWF0aW9uIC5zaGllbGQtY29udGFp
   bmVye3Bvc2l0aW9uOnJlbGF0aXZlO3dpZHRoOjQ5MHB4O2hlaWdodDo0NTBw

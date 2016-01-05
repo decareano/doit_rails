@@ -6,17 +6,17 @@
 :method: get
 :headers:
   Vary: Accept-Encoding
-  Last-Modified: Fri, 13 Nov 2015 03:23:05 GMT
+  Last-Modified: Fri, 13 Nov 2015 03:38:16 GMT
   Content-Type: application/x-javascript
   Cache-Control: max-age=31536000, public
-  Date: Fri, 13 Nov 2015 03:23:05 GMT
-  Age: '4445462'
+  Date: Fri, 13 Nov 2015 03:38:16 GMT
+  Age: '4637083'
   Content-Length: '152442'
-  Via: http/1.0 c1.ycs.bf1.yahoo.com (ApacheTrafficServer [cRs f ]), https/1.1 l10.ycs.dea.yahoo.com
+  Via: http/1.0 c2.ycs.bf1.yahoo.com (ApacheTrafficServer [cRs f ]), https/1.1 l5.ycs.dea.yahoo.com
     (ApacheTrafficServer [cRs f ])
   Server: ATS
   Connection: close
-  Y-Trace: BAEAQAAAAACfC_4etMBh1QAAAAAAAAAAaEUhKBEahlIAAAAAAAAAAAAFKG6eFRI4AAUobp4VEu6c4RjyAAAAAA--
+  Y-Trace: BAEAQAAAAABjYkFsHlPlAAAAAAAAAAAA3UNTRA6QeVYAAAAAAAAAAAAFKJtx5uHeAAUom3Hm41iGEHDCAAAAAA--
 :content: |
   YUI.add("metro_dali",function(b){var a=b.ModulePlatform;a.subscribe("init",function(){var f=a.getService("transport"),e=0,d="cfg.maple_dali.handler.add",c="cfg.maple_dali.handler.refresh";f.setResponseFormatter(function(g){if(g.mod){g.data=g.mod.data;}if(g.data){delete g.data.maple;}return g;});f.setRequestFormatter("arcade",function(h,i){var g=b.mix({},h),j=h._id;delete g.type;if(!j){j=i;}if(h._type){j=h._type;}return{handler:c,data:{maple:{module:j,ba:b.merge(g,{_txnid:e++,_mode:"json",_id:j,_container:0,chrome:"false"})}}};});f.setRequestFormatter("loadview",function(k,j){var g=b.mix({},k),i=a.queryModules(function(p){var o=a.getModuleApi(p);return o&&o.getProperty("type")=="pa";})[0],m,n=k.moduleId,h=n,l=a.getModuleApi(n);switch(g.view){case"pa":g={handler:c,data:{maple:{module:i,ba:{_action:"show",_subAction:"single",modId:n,chrome:(g.chrome?"true":"false"),_txnid:e++,_mode:"json",_id:i,_container:(g.chrome?1:0),data:(g.data?g.data:null),cpos:l.getProperty("cpos")||undefined,pointer:(l.isViewOpen("default")||l.isViewOpen("edit"))?1:undefined}}},batchable:true};break;case"default":if(g.chrome){if(i){m=a.queryModules(function(q){var p=a.getModuleApi(q),o=p&&p.getProperty("type");return o=="pacontainer";})[0];h=m;}g={handler:d,data:{maple:{module:h,ba:{_action:"show",chrome:(g.chrome?"true":"false"),_txnid:e++,_mode:"json",_id:h,modId:n,_container:(g.chrome?1:0),view:"default"}}}};break;}default:g={handler:c,data:{maple:{module:n,ba:{_action:"show",_subAction:g.view=="default"?undefined:g.view,view:g.view,_txnid:e++,_mode:"json",_id:n,_container:(g.chrome?1:0),chrome:(g.chrome?"true":"false")}}}};break;}delete g.moduleId;delete g.type;return g;});f.setRequestFormatter("module",function(g,h){var i=g.moduleId;if(!i){i=h;}return{handler:c,data:{maple:{module:i,ba:b.merge({_txnid:e++,_mode:"json",_id:i,_container:0},g.args)}}};});});},"1.0",{requires:["transport"]});/* Copyright (c) 2015, Yahoo! Inc.  All rights reserved. */
   YUI.add("module_api",function(a){a.ModuleApi=function(d,i){var h=i.props,f=a.Lang.isUndefined,b=h.id,j=i.prefs||{},g=null,c=["broadcast","listen","unlisten","closeView","getViewNode","getViewDirection","isViewOpen","navigate","openView","refreshView","setView"],e={getContextData:function(k){var m=i.data,l;if(m){l=(k?m[k]:m);}return(f(l)?g:l);},getId:function(){return b;},getProperty:function(k){var l=h[k];return f(l)?g:l;},getString:function(k){return d.getString(h.type,k);},getPref:function(k){var l=j[k];return f(l)?g:l;},setPref:function(k,l){var m=d.getService("transport");j[k]=l;if(m){m.makeRequest({type:"setpref",prefName:k,prefValue:l,moduleId:b},g,b);return true;}else{return false;}},getService:function(k){return d.getService(k,b);},error:function(k,l){d.error("module",k,a.merge((l?l:{}),{moduleId:b}));},abortRequest:function(k){var l=d.getService("transport");return !!(l&&l.abortRequest(k,b));},isRequestPending:function(k){var l=d.getService("transport");return !!(l&&l.isRequestPending(k,b));},makeRequest:function(k,m){var l=d.getService("transport");return(l?l.makeRequest(k,m,b):-1);}};a.Array.each(c,function(k){e[k]=function(){var l=a.Array(arguments,0,true);l.unshift(b);return d[k].apply(d,l);};});return e;};},"1.0");/* Copyright (c) 2015, Yahoo! Inc.  All rights reserved. */

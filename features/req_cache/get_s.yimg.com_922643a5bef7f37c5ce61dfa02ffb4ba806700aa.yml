@@ -9,19 +9,19 @@
   Cache-Control: max-age=31536000,public
   Content-Length: '3058'
   Content-Type: image/jpeg
-  Date: Sat, 02 Jan 2016 13:01:13 GMT
+  Date: Mon, 04 Jan 2016 18:12:36 GMT
   Etag: '"YM:1:796ca024-e067-4762-bd84-0d816483037a000528274e999cf1"'
   Last-Modified: Thu, 31 Dec 2015 01:09:31 GMT
   Server: ATS
-  Via: HTTP/1.1 web14.use105.mobstor.bf1.yahoo.com UserFiberFramework/1.0, https/1.1
-    l8.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
-  X-Ysws-Meta-Image-Height: '48'
-  X-Ysws-Meta-Image-Width: '120'
-  X-Ysws-Request-Id: 03cb048c-31ba-41bf-ab61-e3ef54e11106
-  X-Ysws-Visited-Replicas: gops.use105.mobstor.vip.bf1.yahoo.com
+  Via: HTTP/1.1 web13.use105.mobstor.bf1.yahoo.com UserFiberFramework/1.0, https/1.1
+    l10.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
+  x-ysws-meta-image-height: '48'
+  x-ysws-meta-image-width: '120'
+  x-ysws-request-id: 34d142d9-4c82-4b5f-b6aa-40e7e3faa92c
+  x-ysws-visited-replicas: gops.use105.mobstor.vip.bf1.yahoo.com
   Age: '0'
   Connection: close
-  Y-Trace: BAEAQAAAAAAlhKfzD_gxGgAAAAAAAAAA5BiQkFn1D28AAAAAAAAAAAAFKG6eAOpDAAUobp4A64p_POOhAAAAAA--
+  Y-Trace: BAEAQAAAAAB72XDkDsaF.gAAAAAAAAAAaEUhKBEahlIAAAAAAAAAAAAFKJtxiX2QAAUom3GJfqm2yaKiAAAAAA--
 :content: !binary |-
   /9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4w
   ICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gOTUK/9sAQwACAQEB

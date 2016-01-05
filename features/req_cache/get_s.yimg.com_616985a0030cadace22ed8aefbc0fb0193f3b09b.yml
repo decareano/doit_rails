@@ -9,18 +9,18 @@
   Cache-Control: max-age=31536000,public
   Content-Length: '4799'
   Content-Type: image/jpeg
-  Date: Sat, 02 Jan 2016 18:11:03 GMT
+  Date: Tue, 05 Jan 2016 16:37:18 GMT
   Etag: '"YM:1:095ffa22-687c-4297-87a5-c473fae65dbd0004fade690e36f0"'
   Expires: Sat, 05 Sep 2026 00:00:00 GMT
   Last-Modified: Mon, 02 Jun 2014 18:17:39 GMT
   Server: ATS
-  Via: HTTP/1.1 web11.use105.mobstor.bf1.yahoo.com UserFiberFramework/1.0, https/1.1
-    l2.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
-  X-Ysws-Request-Id: 0fdc3db5-3660-4f86-9794-8890cc4a8b82
-  X-Ysws-Visited-Replicas: gops.use105.mobstor.vip.bf1.yahoo.com
-  Age: '72183'
+  Via: HTTP/1.1 web13.use105.mobstor.bf1.yahoo.com UserFiberFramework/1.0, https/1.1
+    l4.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
+  x-ysws-request-id: fe6a4435-f166-45a6-9e42-8a549d1fc929
+  x-ysws-visited-replicas: gops.use105.mobstor.vip.bf1.yahoo.com
+  Age: '11134'
   Connection: close
-  Y-Trace: BAEAQAAAAACFkmiUGR6oqQAAAAAAAAAAnweTeNWlNK8AAAAAAAAAAAAFKG6d_BPHAAUobp38FHGI4H2wAAAAAA--
+  Y-Trace: BAEAQAAAAADpvpe0vLpOtgAAAAAAAAAA1M0fLhVYDMgAAAAAAAAAAAAFKJtxfHtdAAUom3F8e_wQaVVRAAAAAA--
 :content: !binary |-
   /9j/4AAQSkZJRgABAQEASABIAAD//gAgT3B0aW1pemVkIGJ5IEpQRUdtaW5p
   IDMuNy43LjFM/9sAQwAHBQUGBQIHBgUGCAcHCAoRCwoJCQoUDw8MERkWGhkY

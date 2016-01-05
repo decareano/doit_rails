@@ -10,12 +10,12 @@
   Content-Length: '5430'
   Content-Type: image/x-icon
   Date: Mon, 04 Jan 2016 00:00:01 GMT
-  ETag: '"YM:1:479c4861-0e10-4e68-b016-45e420d99d26000528752058340f"'
+  Etag: '"YM:1:479c4861-0e10-4e68-b016-45e420d99d26000528752058340f"'
   Expires: Tue, 05 Jan 2016 00:00:01 GMT
   Last-Modified: Sun, 03 Jan 2016 22:00:02 GMT
   Server: ATS
-  x-ysws-request-id: b220bc32-507e-4ae6-bdac-446150837c8c
-  x-ysws-visited-replicas: gops.use26.mobstor.vip.bf1.yahoo.com
+  X-Ysws-Request-Id: b220bc32-507e-4ae6-bdac-446150837c8c
+  X-Ysws-Visited-Replicas: gops.use26.mobstor.vip.bf1.yahoo.com
   X-Cache: HIT from logo4.global.media.bf1.yahoo.com
   X-Cache-Lookup: HIT from logo4.global.media.bf1.yahoo.com:80
   Via: HTTP/1.1 web12.use26.mobstor.bf1.yahoo.com UserFiberFramework/1.0, 1.0 logo4.global.media.bf1.yahoo.com:80

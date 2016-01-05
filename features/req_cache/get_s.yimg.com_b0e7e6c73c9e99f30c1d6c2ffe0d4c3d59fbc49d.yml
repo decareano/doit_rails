@@ -5,25 +5,25 @@
 :status: 200
 :method: get
 :headers:
-  Date: Sat, 02 Jan 2016 23:24:32 GMT
-  P3p: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM
+  Date: Tue, 05 Jan 2016 01:12:19 GMT
+  P3P: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM
     DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY
     ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
-  X-Server-Time-Fetchimage: '26620'
+  X-Server-Time-FetchImage: '105272'
   Content-Disposition: inline; filename=Heres_why_the_US_government-67bcd1348488e6399a521d0a4db91515.cf.jpg
   Cache-Control: public,max-age=2592000
   X-Server-Processor: ymagine
-  X-Server-Time-Process: '123663'
-  X-Server-Time-Total: '150594'
+  X-Server-Time-Process: '123731'
+  X-Server-Time-Total: '229396'
   Content-Length: '7517'
   X-Image-Width: '164'
   X-Image-Height: '164'
   Content-Type: image/jpeg
-  Age: '53374'
+  Age: '66634'
   Server: ATS
   Connection: close
-  Via: https/1.1 l8.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
-  Y-Trace: BAEAQAAAAACW.sBwmXHMWQAAAAAAAAAA5BiQkFn1D28AAAAAAAAAAAAFKG6eBJlkAAUobp4Emhizgk4iAAAAAA--
+  Via: https/1.1 l5.ycs.dea.yahoo.com (ApacheTrafficServer [cMsSfW])
+  Y-Trace: BAEAQAAAAAD9dXe1MtxFFgAAAAAAAAAA3UNTRA6QeVYAAAAAAAAAAAAFKJtxjVycAAUom3GO9uNcoEgpAAAAAA--
 :content: !binary |-
   /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABIMDRANCxIQDhAUExIVGywdGxgY
   GzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/

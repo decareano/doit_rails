@@ -5,25 +5,25 @@
 :status: 200
 :method: get
 :headers:
-  Date: Fri, 01 Jan 2016 15:04:16 GMT
-  P3p: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM
+  Date: Mon, 04 Jan 2016 17:20:23 GMT
+  P3P: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM
     DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY
     ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
-  X-Server-Time-Fetchimage: '22752'
+  X-Server-Time-FetchImage: '23106'
   Content-Disposition: inline; filename=9ecece80-3875-11e4-ae08-7b3ec5eee7b6_71438e20_0241_11e4_ad34_37bdf2080f49_mattba.jpg
   Cache-Control: max-age=94348800,public
   X-Server-Processor: ymagine
-  X-Server-Time-Process: '68098'
-  X-Server-Time-Total: '91249'
+  X-Server-Time-Process: '74525'
+  X-Server-Time-Total: '98134'
   Content-Length: '828'
   X-Image-Width: '40'
   X-Image-Height: '40'
   Content-Type: image/jpeg
-  Age: '169791'
+  Age: '94950'
   Server: ATS
   Connection: close
-  Via: https/1.1 l4.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
-  Y-Trace: BAEAQAAAAABSf0M7EYiPUgAAAAAAAAAA1M0fLhVYDMgAAAAAAAAAAAAFKG6eCX_CAAUobp4JgZSQB28xAAAAAA--
+  Via: https/1.1 l1.ycs.dea.yahoo.com (ApacheTrafficServer [cRs f ])
+  Y-Trace: BAEAQAAAAAAVY9En2ydEmAAAAAAAAAAAIFnD3tJol0wAAAAAAAAAAAAFKJtxhkxYAAUom3GGTQx5XvVWAAAAAA--
 :content: !binary |-
   /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcH
   Bw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/
