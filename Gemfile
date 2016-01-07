@@ -55,8 +55,9 @@ group :test do
   gem 'selenium-webdriver'
   gem 'database_cleaner'
   gem 'vcr'
-  gem 'webmock'
+  #gem 'webmock'
   gem 'puffing-billy'
   gem 'poltergeist'
+  gem 'capybara-webkit'
 end
 

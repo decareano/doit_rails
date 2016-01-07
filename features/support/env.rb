@@ -8,11 +8,13 @@ require 'cucumber/rails'
 require 'capybara'
 require 'billy/cucumber'
 
-#Capybara.javascript_driver = :poltergeist
+Capybara.javascript_driver = :poltergeist_billy
 
-Capybara.register_driver :poltergeist do |app|
-  Capybara::Poltergeist::Driver.new(app, :js_errors => false, :debug => true)
-end
+
+
+#Capybara.register_driver :poltergeist_billy do |app|
+  #Capybara::Poltergeist::Driver.new(app, :js_errors => false, :debug => true, :timeout => 80)
+#end
 
 Billy.configure do |c|
   c.cache = true
@@ -31,7 +33,7 @@ Billy.configure do |c|
   c.non_successful_cache_disabled = false
   c.non_successful_error_level = :warn
   c.non_whitelisted_requests_disabled = false
-  c.cache_path = 'spec/req_cache/'
+  c.cache_path = 'spec'
   c.proxy_host = 'example.com' # defaults to localhost
   c.proxy_port = 12345 # defaults to random
   c.proxied_request_host = nil
